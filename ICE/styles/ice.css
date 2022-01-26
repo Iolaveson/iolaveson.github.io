@@ -1,0 +1,58 @@
+.topic{
+    color:white;
+    text-align:center;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Tinos', serif;
+}
+header:hover{
+    color:black;
+}
+body{
+    background-color: white;
+}
+
+main{
+    background-color: pink;
+    margin: 5px 250px;
+}
+
+img{
+    max-width:50%;
+    height:auto;
+    padding: 10em;
+    
+}
+
+.list{
+    color:black;
+    text-align: left;
+    margin: 500px;
+    font-family: 'Tinos', serif;
+    
+}
+.quote{
+    color:white;
+    text-align:center;
+    font-family: 'Arimo', sans-serif;
+}
+.author{
+    color: white;
+    text-align: center;
+    
+}
+
+.foot{
+    color:black;
+    text-align: center;
+    padding: 10em;
+    font-family: 'Arimo', sans-serif;
+    
+}
+.thesis{
+    color:white;
+    text-align: center;
+    padding: 10em;
+    font-family: 'Tinos', serif;
+    
+}
