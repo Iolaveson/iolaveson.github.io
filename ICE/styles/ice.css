@@ -3,7 +3,7 @@
     text-align:center;
     font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Seymour One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 5px 1em 15px 1em;
 }
 header:hover{
@@ -28,7 +28,7 @@ img{
     color:black;
     text-align: left;
     padding: 10px 305px;
-    font-family: 'Seymour One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 1000;
     font-size: 78%;
     line-height: 2em;
@@ -43,7 +43,7 @@ img{
 .author{
     color: white;
     text-align: center;
-    font-family: 'Seymour One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     
 }
@@ -52,7 +52,7 @@ img{
     color:black;
     text-align: center;
     margin: 3em 330px 20px 330px;
-    font-family: 'Seymour One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 0.5em;
     font-size: 75%;
     font-weight: 600;
