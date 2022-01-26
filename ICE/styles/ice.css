@@ -1,58 +1,68 @@
 .topic{
     color:white;
     text-align:center;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
-    font-family: 'Tinos', serif;
+    font-family: 'Seymour One', sans-serif;
+    padding: 5px 1em 15px 1em;
 }
 header:hover{
     color:black;
 }
 body{
-    background-color: white;
+    background-color: #e895ba;
 }
 
 main{
-    background-color: pink;
-    margin: 5px 250px;
+    background-color: #e895ba;
+    margin: 30px 280px;
 }
 
 img{
-    max-width:50%;
+    max-width:150px;
     height:auto;
-    padding: 10em;
-    
+    padding: .01em 25em 1em 25em;
 }
 
 .list{
     color:black;
     text-align: left;
-    margin: 500px;
-    font-family: 'Tinos', serif;
+    padding: 10px 305px;
+    font-family: 'Seymour One', sans-serif;
+    font-weight: 1000;
+    font-size: 78%;
+    line-height: 2em;
     
 }
 .quote{
     color:white;
     text-align:center;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Tinos', serif;
+    margin: 10px 250px;
 }
 .author{
     color: white;
     text-align: center;
+    font-family: 'Seymour One', sans-serif;
+    font-weight: bold;
     
 }
 
 .foot{
     color:black;
     text-align: center;
-    padding: 10em;
-    font-family: 'Arimo', sans-serif;
+    margin: 3em 330px 20px 330px;
+    font-family: 'Seymour One', sans-serif;
+    line-height: 0.5em;
+    font-size: 75%;
+    font-weight: 600;
     
 }
 .thesis{
     color:white;
     text-align: center;
-    padding: 10em;
+    margin: .01em 350px;
     font-family: 'Tinos', serif;
-    
+    font-weight: lighter;
+    font-size: 175%;
 }
