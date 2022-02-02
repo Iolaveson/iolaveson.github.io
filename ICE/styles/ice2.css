@@ -17,7 +17,8 @@ body{
 .icon{
     max-width: 200px;
     border-radius: 190px;
+    border: 7px;
+    border-style: solid;
     border-color: rgb(70, 70, 70);
-    border: 7px solid;
     margin: 0em 2em;
 }
