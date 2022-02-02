@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(73, 73, 73);
+    max-width: 1600px;
+    display: block;
+}
+.business{
+    align-items: center;
+    width: 1000px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: auto;
+    padding: 2em;
+}
+.icon{
+    max-width: 200px;
+    border-radius: 190px;
+    border-color: rgb(70, 70, 70);
+    border: 7px solid;
+    margin: 0em 2em;
+}
