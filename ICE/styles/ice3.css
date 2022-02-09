@@ -1,0 +1,44 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    max-width: 1600px;
+    margin: 0;
+}
+.text{
+    display: block;
+    margin: 50px 20px 50px 10px;
+    text-align: center;
+    
+}
+h1{
+    grid-column: 2/3;
+    text-align: center;
+}
+p{
+  grid-column: 2/3;
+  text-align: center;
+}
+.name_box{
+    grid-column: 1/3;
+    border-radius: 10px;
+}
+.email_box{
+    grid-column: 1/3;
+    border-radius: 10px;
+    
+}
+.glasses{
+    width: 100%;
+}
+.checkbox{
+
+}
+.button-box{
+    color: white;
+    text-align: center;
+    background-color: orange;
+    border-radius: 5px;
+    width: 150px;
+    height: auto;
+    font-size: 1.5em;
+}
