@@ -21,6 +21,8 @@ h2{
 }
 header{
     background-color: rgba(20, 30, 13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 #logo_link{
     padding-top: 5px;
