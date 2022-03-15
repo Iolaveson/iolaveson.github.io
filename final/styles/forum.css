@@ -1,0 +1,88 @@
+header{
+    background-color: #1C006A;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo{
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -20px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color: #796780;
+    color: white;
+}
+button{
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    height: 25px;
+    width: 100px;
+    margin-top: 33px;
+}
+
+
+
+footer{
+    background-color: #1C006A;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img{
+    padding-top: 15px;
+    height: 64px;
+    width: 64px;
+}
+footer h3{
+    color:white;
+    text-decoration: underline;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    nav, footer{
+        flex-direction: column;
+    }
+    nav a{
+        display: block;
+        padding: 15px;
+    }
+    #hero-msg{
+        margin-top: -200px;
+    }
+    main{
+        margin-top: 150px;
+    }
+    button{
+        margin-left: 235px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
