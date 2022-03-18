@@ -18,7 +18,7 @@
            <a href='forum.html'>Forum</a>
            <a href='shows.html'>Shows</a>
            <a href="store.html">Store</a>
-           <button>Sign In</button>
+           <button class="login">Sign In</button>
         </nav>
     </header>
     <section class="hero-box">
@@ -26,27 +26,85 @@
         <h1 class='hero-title'>Forum</h1>
     </section>
     <main>
-        <div class="topics">
-            <h3>All Topics</h3>
-            <h3>Competitions</h3>
-            <h3>Shows</h3>
-        </div>
-        <div class="threads">
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'alltopics')">All Topics</button>
+            <button class="tablinks" onclick="openCity(event, 'competitions')">Competitions</button>
+            <button class="tablinks" onclick="openCity(event, 'shows')">Shows</button>
+          </div>
+          
+          <div id="alltopics" class="tabcontent">
             <section>
                 <h3>Thread Title</3>
-                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum explicabo delectus iste autem necessitatibus eveniet, ab tempora? Magni perferendis laborum rem labore facere, nulla similique.</h4>
-
-            </section>
-            <section>
-                <h3>Thread Title</3>
-                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum explicabo delectus iste autem necessitatibus eveniet, ab tempora? Magni perferendis laborum rem labore facere, nulla similique.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
     
             </section>
             <section>
                 <h3>Thread Title</3>
-                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum explicabo delectus iste autem necessitatibus eveniet, ab tempora? Magni perferendis laborum rem labore facere, nulla similique.</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
     
             </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+          </div>
+          
+          <div id="competitions" class="tabcontent">
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+          </div>
+          
+          <div id="shows" class="tabcontent">
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+            <section>
+                <h3>Thread Title</3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, repudiandae. Nostrum sapiente, soluta exercitationem voluptates ipsum ut et adipisci consequatur, nulla culpa minima placeat autem error molestiae illo magni, laudantium quod vitae inventore optio itaque facilis magnam doloremque dignissimos? Odit iusto mollitia vel voluptatem assumenda quo at magnam sapiente ipsa!</p>
+    
+            </section>
+          </div>
         </div>
     </main>
     <footer>
@@ -65,5 +123,25 @@
            </a>
         </div>
     </footer>
+
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+        </script>
 </body>
 </html>
