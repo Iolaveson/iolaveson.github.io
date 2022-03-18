@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 header{
     background-color: #1C006A;
     display: grid;
@@ -24,6 +27,7 @@ nav a{
     text-decoration: none;
     padding: 35px;
     font-size: 18px;
+    font-family: 'Quicksand';
 }
 nav a:hover{
     background-color: #796780;
@@ -34,17 +38,66 @@ button{
     border-radius: 20px;
     text-align: center;
     font-size: 14px;
+    font-family: 'Quicksand';
     height: 25px;
     width: 100px;
     margin-top: 33px;
 }
 
+.text{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Quicksand';
+    /* background-color: #ffb31a;
+    border-radius: 25px; */
+}
+#hero-img{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0;
+}
+.selector{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-bottom: 0;
+}
+.icon{
+    width: 100%;
+}
+.icon:hover{
+    transform: scale(1.15);
+}
+h2{
+    text-align: center;
+    font-family: 'Quicksand';
+}
+.compete, .forum, .store, .shows{
+    margin: 50px;
+}
+.compete{
+    grid-column: 1/2;
+    grid-row: 1/2;
 
+}
+.forum{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.store{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.shows{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
 
 footer{
     background-color: #1C006A;
     padding: 25px 50px;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -56,11 +109,12 @@ footer .social img{
 }
 footer h3{
     color:white;
-    text-decoration: underline;
+    font-family: 'Quicksand';
 }
 footer a{
     color: white;
     text-decoration: none;
+    font-family: 'Quicksand';
 }
 footer a:hover{
     color: black;
@@ -76,9 +130,6 @@ footer a:hover{
     }
     #hero-msg{
         margin-top: -200px;
-    }
-    main{
-        margin-top: 150px;
     }
     button{
         margin-left: 235px;
