@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Compete</title>
     <link rel="stylesheet" href="styles/compete.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Quicksand:wght@400;600&display=swap');
+    </style>
 </head>
 <body>
     <header>
@@ -21,24 +24,26 @@
             <button>Sign In</button>
         </nav>
     </header>
-    <section class="hero-box">
-        <img id='hero-img' src='images/positive-woman-win-prize-internet-try-dancing-chair.jpg' width="100px" alt='winner'>
+    <section id="hero-box">
+        <img class='hero-img' src='images/compete-hero.jpg' alt='winner'>
         <h1 class='hero-title'>Compete</h1>
     </section>
     <main>
         <section class="textbox">
             <h4>Here you can place bets against your friends or others from around the world. Compete for bragging rights and prizes on our storefront!</h4>
-            <h3>Search to place bets or add shows to your list</h3>
-            <input type="text" placeholder="Search..">
+            <h2>Search to place bets or add shows to your list</h2>
+            <input type="text" placeholder="Search.." >
         </section>
-        <section class="bets">
-            <img class="icon" src="images/coin-logo.png" width="100px" alt="Bet">
-            <h3>My Bets</h3>
-        </section>
-        <section class="shows">
-            <img class="icon" src="images/tv-logo.png" width="100px" alt="Show">
-            <h3>My Shows</h3>
-        </section>
+        <div class="items">
+            <div class="bets">
+                <img src="images/coin-logo.png" alt="Bet">
+                <h3>My Bets</h3>
+            </div>
+            <div class="shows">
+                <img src="images/tv-logo.png" alt="Show">
+                <h3>My Shows</h3>
+            </div>
+        </div>
     </main>
     <footer>
         <h3>Reality Gamble &copy; 2022 - Israel Olaveson</h3>

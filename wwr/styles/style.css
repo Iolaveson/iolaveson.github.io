@@ -58,7 +58,6 @@ h4{
 #hero{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    
 }
 #hero-img{
     width: 100%;
